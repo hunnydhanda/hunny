@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="74bb2f5c-40fc-4d80-8367-1dc497584d32" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:64355/WebServices/testing.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="testing.xsd" MetadataType="Schema" ID="c6a5b4b5-30db-42e3-a1e7-603e21cece7a" SourceId="1" SourceUrl="http://localhost:64355/WebServices/testing.svc?xsd=xsd2" />
+    <MetadataFile FileName="testing1.xsd" MetadataType="Schema" ID="3e9854e1-f2b0-4492-b491-b76bcf760320" SourceId="1" SourceUrl="http://localhost:64355/WebServices/testing.svc?xsd=xsd1" />
+    <MetadataFile FileName="testing.disco" MetadataType="Disco" ID="4201b054-7ac1-4f10-9f56-6534e195fc0a" SourceId="1" SourceUrl="http://localhost:64355/WebServices/testing.svc?disco" />
+    <MetadataFile FileName="testing2.xsd" MetadataType="Schema" ID="d01c7f03-3baf-4968-8570-1338525ba640" SourceId="1" SourceUrl="http://localhost:64355/WebServices/testing.svc?xsd=xsd0" />
+    <MetadataFile FileName="testing.wsdl" MetadataType="Wsdl" ID="cd1e1bc9-302a-41a7-8db7-ef77b942dba9" SourceId="1" SourceUrl="http://localhost:64355/WebServices/testing.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
